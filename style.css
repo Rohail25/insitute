@@ -1,0 +1,43 @@
+.border-text{
+    background: #1D1D1DB2;
+}
+.footer ul li a:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.search-events{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.posts{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3AC569;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .dropdown-content ul li{
+    list-style: none;
+  }
+  .dropdown-content ul li a{
+    text-decoration: none;
+    color: black;
+  }
+ 
